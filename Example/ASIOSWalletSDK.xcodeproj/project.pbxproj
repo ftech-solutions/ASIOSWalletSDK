@@ -478,6 +478,7 @@
 			baseConfigurationReference = 08B6680356849DC29154F47F /* Pods-ASIOSWalletSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ASIOSWalletSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +494,7 @@
 			baseConfigurationReference = D7D5827164541A6BC89D4D21 /* Pods-ASIOSWalletSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ASIOSWalletSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

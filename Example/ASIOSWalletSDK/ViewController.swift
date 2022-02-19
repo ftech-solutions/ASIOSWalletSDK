@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        ASIOSWalletSDK.shared.initSDK(debug: true)
+        ASIOSWalletSDK.initSDK(environment: .beta, debug: true)
     }
 
     override func didReceiveMemoryWarning() {
