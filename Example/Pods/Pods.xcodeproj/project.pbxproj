@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		073BAE478F992ACF48D377B6155F2F44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		21842F789D561781D6BA4101A91C87C1 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C05E92AD78027AE5BD71E2049B6D02 /* ReplaceMe.swift */; };
+		21842F789D561781D6BA4101A91C87C1 /* ASIOSWalletSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C05E92AD78027AE5BD71E2049B6D02 /* ASIOSWalletSDK.swift */; };
 		39774CC66D2721808507D33B67326700 /* Pods-ASIOSWalletSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B338BF91DBF8572FE1FEF92B1F39A2 /* Pods-ASIOSWalletSDK_Example-dummy.m */; };
 		3C362D9F5C0EB5F7A33516EB2DC3FB10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7A18F298C3F017D71C1FD18FAACBB977 /* Pods-ASIOSWalletSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B1D4565736C9491754FA4420B1F7F7 /* Pods-ASIOSWalletSDK_Tests-dummy.m */; };
@@ -43,33 +43,33 @@
 		1FBC309D23EC97933AFACA3E89C64124 /* Pods-ASIOSWalletSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASIOSWalletSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		3147B0B1ED6566D88FCAAB84341E683C /* Pods-ASIOSWalletSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASIOSWalletSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		33110F84C33214767B183E5CFAB5BDC1 /* ASIOSWalletSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASIOSWalletSDK-prefix.pch"; sourceTree = "<group>"; };
-		377DD8DAC67BAF60D9115C57918C4E4B /* ASIOSWalletSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASIOSWalletSDK.framework; path = ASIOSWalletSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D2CA63E7716B2D95AC956A3ECD4D80C /* ASIOSWalletSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ASIOSWalletSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		377DD8DAC67BAF60D9115C57918C4E4B /* ASIOSWalletSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASIOSWalletSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D2CA63E7716B2D95AC956A3ECD4D80C /* ASIOSWalletSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ASIOSWalletSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		46198483B7ED5995FCC8760E7EE4DC58 /* Pods-ASIOSWalletSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASIOSWalletSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4CAB8DF48807872C863BD21BE98C7F9C /* ASIOSWalletSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASIOSWalletSDK-dummy.m"; sourceTree = "<group>"; };
 		4EBA552CDC5D2556CEC6254B0B70BE62 /* ASIOSWalletSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASIOSWalletSDK.debug.xcconfig; sourceTree = "<group>"; };
-		51C05E92AD78027AE5BD71E2049B6D02 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ASIOSWalletSDK/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		51C05E92AD78027AE5BD71E2049B6D02 /* ASIOSWalletSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASIOSWalletSDK.swift; path = ASIOSWalletSDK/Classes/ASIOSWalletSDK.swift; sourceTree = "<group>"; };
 		541B97B3EC8F98AE927A180050C0731B /* Pods-ASIOSWalletSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASIOSWalletSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5EC1B1F5028C2592FBCE4E23928F7BC0 /* Pods-ASIOSWalletSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASIOSWalletSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		626A4398EB7E1BF3468A510CE5AB92EF /* Pods-ASIOSWalletSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASIOSWalletSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		6356BD8EC90F1E46B4B84CF1A092D059 /* Pods_ASIOSWalletSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ASIOSWalletSDK_Tests.framework; path = "Pods-ASIOSWalletSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6356BD8EC90F1E46B4B84CF1A092D059 /* Pods_ASIOSWalletSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASIOSWalletSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7C4A15A0CE4AF5F81827F70B46DD1D3D /* Pods-ASIOSWalletSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ASIOSWalletSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		7FF1733FD67083093CEA6232F6B157A4 /* Pods-ASIOSWalletSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASIOSWalletSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		88067BDAB524C876EEE7EB4B6C3E61DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		88067BDAB524C876EEE7EB4B6C3E61DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8E53F01B07E4FFB60E79B9EE307622FD /* Pods-ASIOSWalletSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASIOSWalletSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8F00CD91D34FF988BDD29BE9920AC32F /* Pods-ASIOSWalletSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ASIOSWalletSDK_Example.modulemap"; sourceTree = "<group>"; };
 		9BA4FA29121BE6588A2DD997882E925F /* ASIOSWalletSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASIOSWalletSDK-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E97A93E07DA36DB11FADF64EE517157 /* Pods-ASIOSWalletSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASIOSWalletSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A6FE65882577A1D57931233F8B86DDB3 /* ASIOSWalletSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASIOSWalletSDK.modulemap; sourceTree = "<group>"; };
 		AD639564751216EAA1C68D625B319DE2 /* Pods-ASIOSWalletSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASIOSWalletSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AE1DE28C867838948A97F44D489FC730 /* Pods_ASIOSWalletSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ASIOSWalletSDK_Example.framework; path = "Pods-ASIOSWalletSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1DE28C867838948A97F44D489FC730 /* Pods_ASIOSWalletSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASIOSWalletSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE97E7A2FD99E5DBEEC624E05C0C2E9C /* Pods-ASIOSWalletSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASIOSWalletSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		C3B338BF91DBF8572FE1FEF92B1F39A2 /* Pods-ASIOSWalletSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASIOSWalletSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		C7D6DCAD780F68E4770FCFD596C5A766 /* ASIOSWalletSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASIOSWalletSDK-Info.plist"; sourceTree = "<group>"; };
 		E7B1D4565736C9491754FA4420B1F7F7 /* Pods-ASIOSWalletSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASIOSWalletSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		F9424497408B91641A1EB3216EFB2789 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F9424497408B91641A1EB3216EFB2789 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,7 +171,7 @@
 		A912CA06938E338C900727BB2E060CF5 /* ASIOSWalletSDK */ = {
 			isa = PBXGroup;
 			children = (
-				51C05E92AD78027AE5BD71E2049B6D02 /* ReplaceMe.swift */,
+				51C05E92AD78027AE5BD71E2049B6D02 /* ASIOSWalletSDK.swift */,
 				2AC19710C7501D171D8DF70227E09BB1 /* Pod */,
 				B80EE2A134B17378690EB874F35BF2F8 /* Support Files */,
 			);
@@ -376,7 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9110310E9B33D3F677B6D3CF9DE4D373 /* ASIOSWalletSDK-dummy.m in Sources */,
-				21842F789D561781D6BA4101A91C87C1 /* ReplaceMe.swift in Sources */,
+				21842F789D561781D6BA4101A91C87C1 /* ASIOSWalletSDK.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,8 +685,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
