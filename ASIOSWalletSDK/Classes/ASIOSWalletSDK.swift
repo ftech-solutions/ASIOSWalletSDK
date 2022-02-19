@@ -1,9 +1,14 @@
 import UIKit
 
-extension UIImageView {
-    public func applyBorder(color: UIColor, width: CGFloat) {
-        layer.borderColor = color.cgColor
-        layer.borderWidth = width
-        clipsToBounds = true
+public class ASIOSWalletSDK: NSObject {
+    
+    public static func initSDK(environment: ASWalletEnviornment = .prod, debug: Bool = false) {
+        ASWallet.shared.isTesting = debug
+        ASWallet.shared.sdkEnvironment = environment
     }
+    
+    public static func isWalletInstalled() -> Bool {
+        return ASWallet.shared.getWalletStatus()
+    }
+    
 }

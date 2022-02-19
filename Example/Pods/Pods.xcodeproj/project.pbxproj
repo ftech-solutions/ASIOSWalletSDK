@@ -16,6 +16,8 @@
 		9110310E9B33D3F677B6D3CF9DE4D373 /* ASIOSWalletSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB8DF48807872C863BD21BE98C7F9C /* ASIOSWalletSDK-dummy.m */; };
 		BBFAB068660F0CEF5F8C7485762533BF /* ASIOSWalletSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA4FA29121BE6588A2DD997882E925F /* ASIOSWalletSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9D075ECA58CE20E29C7311B190E46BB /* Pods-ASIOSWalletSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FF1733FD67083093CEA6232F6B157A4 /* Pods-ASIOSWalletSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F95F246727C130E100860C03 /* ASWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95F246627C130E100860C03 /* ASWallet.swift */; };
+		F95F246927C132F200860C03 /* ASSDKEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95F246827C132F200860C03 /* ASSDKEnvironment.swift */; };
 		FB0EBA3BB99DDAE168D0791207C1B585 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +72,8 @@
 		C7D6DCAD780F68E4770FCFD596C5A766 /* ASIOSWalletSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASIOSWalletSDK-Info.plist"; sourceTree = "<group>"; };
 		E7B1D4565736C9491754FA4420B1F7F7 /* Pods-ASIOSWalletSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASIOSWalletSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		F9424497408B91641A1EB3216EFB2789 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F95F246627C130E100860C03 /* ASWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASWallet.swift; sourceTree = "<group>"; };
+		F95F246827C132F200860C03 /* ASSDKEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASSDKEnvironment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +178,8 @@
 				51C05E92AD78027AE5BD71E2049B6D02 /* ASIOSWalletSDK.swift */,
 				2AC19710C7501D171D8DF70227E09BB1 /* Pod */,
 				B80EE2A134B17378690EB874F35BF2F8 /* Support Files */,
+				F95F246627C130E100860C03 /* ASWallet.swift */,
+				F95F246827C132F200860C03 /* ASSDKEnvironment.swift */,
 			);
 			name = ASIOSWalletSDK;
 			path = ../..;
@@ -375,7 +381,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F95F246927C132F200860C03 /* ASSDKEnvironment.swift in Sources */,
 				9110310E9B33D3F677B6D3CF9DE4D373 /* ASIOSWalletSDK-dummy.m in Sources */,
+				F95F246727C130E100860C03 /* ASWallet.swift in Sources */,
 				21842F789D561781D6BA4101A91C87C1 /* ASIOSWalletSDK.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

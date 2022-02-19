@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.imgView.applyBorder(color: .red, width: 3.0)
+        ASIOSWalletSDK.shared.initSDK(debug: true)
     }
 
     override func didReceiveMemoryWarning() {
