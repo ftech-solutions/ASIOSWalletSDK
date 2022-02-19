@@ -22,7 +22,7 @@ pod 'ASIOSWalletSDK'
 
 ## Author
 
-ftech-solutions, hkhan@paywith.com
+ftech-solutions, m.arslan2646@gmail.com
 
 ## License
 

@@ -1,0 +1,6 @@
+framework module ASIOSWalletSDK {
+  umbrella header "ASIOSWalletSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

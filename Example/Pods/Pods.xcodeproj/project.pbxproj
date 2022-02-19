@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		073BAE478F992ACF48D377B6155F2F44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		21842F789D561781D6BA4101A91C87C1 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C05E92AD78027AE5BD71E2049B6D02 /* ReplaceMe.swift */; };
+		39774CC66D2721808507D33B67326700 /* Pods-ASIOSWalletSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B338BF91DBF8572FE1FEF92B1F39A2 /* Pods-ASIOSWalletSDK_Example-dummy.m */; };
+		3C362D9F5C0EB5F7A33516EB2DC3FB10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7A18F298C3F017D71C1FD18FAACBB977 /* Pods-ASIOSWalletSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B1D4565736C9491754FA4420B1F7F7 /* Pods-ASIOSWalletSDK_Tests-dummy.m */; };
+		7BFC2EADEC3B5559A37FF27D7301699F /* Pods-ASIOSWalletSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 626A4398EB7E1BF3468A510CE5AB92EF /* Pods-ASIOSWalletSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9110310E9B33D3F677B6D3CF9DE4D373 /* ASIOSWalletSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB8DF48807872C863BD21BE98C7F9C /* ASIOSWalletSDK-dummy.m */; };
+		BBFAB068660F0CEF5F8C7485762533BF /* ASIOSWalletSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA4FA29121BE6588A2DD997882E925F /* ASIOSWalletSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9D075ECA58CE20E29C7311B190E46BB /* Pods-ASIOSWalletSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FF1733FD67083093CEA6232F6B157A4 /* Pods-ASIOSWalletSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB0EBA3BB99DDAE168D0791207C1B585 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11DDCAE069E3A8EA73320ED7EAAACBAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9F624A8DA6C62655F59CE2761B15671;
+			remoteInfo = "Pods-ASIOSWalletSDK_Example";
+		};
+		C4803DF5CD3D5C434490C9080979F5C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3063A3103877E24C8F30CD278467E95C;
+			remoteInfo = ASIOSWalletSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C15720F84F0F4A2D767217560A41740 /* Pods-ASIOSWalletSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASIOSWalletSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		123D7CD45C3C0BE7375BAA9E68002285 /* Pods-ASIOSWalletSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASIOSWalletSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		155743F33C240F3E7EFCE3749D84BD4C /* ASIOSWalletSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASIOSWalletSDK.release.xcconfig; sourceTree = "<group>"; };
+		1FBC309D23EC97933AFACA3E89C64124 /* Pods-ASIOSWalletSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASIOSWalletSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		3147B0B1ED6566D88FCAAB84341E683C /* Pods-ASIOSWalletSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASIOSWalletSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		33110F84C33214767B183E5CFAB5BDC1 /* ASIOSWalletSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASIOSWalletSDK-prefix.pch"; sourceTree = "<group>"; };
+		377DD8DAC67BAF60D9115C57918C4E4B /* ASIOSWalletSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASIOSWalletSDK.framework; path = ASIOSWalletSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D2CA63E7716B2D95AC956A3ECD4D80C /* ASIOSWalletSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ASIOSWalletSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46198483B7ED5995FCC8760E7EE4DC58 /* Pods-ASIOSWalletSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASIOSWalletSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4CAB8DF48807872C863BD21BE98C7F9C /* ASIOSWalletSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASIOSWalletSDK-dummy.m"; sourceTree = "<group>"; };
+		4EBA552CDC5D2556CEC6254B0B70BE62 /* ASIOSWalletSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASIOSWalletSDK.debug.xcconfig; sourceTree = "<group>"; };
+		51C05E92AD78027AE5BD71E2049B6D02 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ASIOSWalletSDK/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		541B97B3EC8F98AE927A180050C0731B /* Pods-ASIOSWalletSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASIOSWalletSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5EC1B1F5028C2592FBCE4E23928F7BC0 /* Pods-ASIOSWalletSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASIOSWalletSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		626A4398EB7E1BF3468A510CE5AB92EF /* Pods-ASIOSWalletSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASIOSWalletSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		6356BD8EC90F1E46B4B84CF1A092D059 /* Pods_ASIOSWalletSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ASIOSWalletSDK_Tests.framework; path = "Pods-ASIOSWalletSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C4A15A0CE4AF5F81827F70B46DD1D3D /* Pods-ASIOSWalletSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ASIOSWalletSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		7FF1733FD67083093CEA6232F6B157A4 /* Pods-ASIOSWalletSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASIOSWalletSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		88067BDAB524C876EEE7EB4B6C3E61DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8E53F01B07E4FFB60E79B9EE307622FD /* Pods-ASIOSWalletSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASIOSWalletSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F00CD91D34FF988BDD29BE9920AC32F /* Pods-ASIOSWalletSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ASIOSWalletSDK_Example.modulemap"; sourceTree = "<group>"; };
+		9BA4FA29121BE6588A2DD997882E925F /* ASIOSWalletSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASIOSWalletSDK-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E97A93E07DA36DB11FADF64EE517157 /* Pods-ASIOSWalletSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASIOSWalletSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A6FE65882577A1D57931233F8B86DDB3 /* ASIOSWalletSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASIOSWalletSDK.modulemap; sourceTree = "<group>"; };
+		AD639564751216EAA1C68D625B319DE2 /* Pods-ASIOSWalletSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASIOSWalletSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AE1DE28C867838948A97F44D489FC730 /* Pods_ASIOSWalletSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ASIOSWalletSDK_Example.framework; path = "Pods-ASIOSWalletSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE97E7A2FD99E5DBEEC624E05C0C2E9C /* Pods-ASIOSWalletSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASIOSWalletSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		C3B338BF91DBF8572FE1FEF92B1F39A2 /* Pods-ASIOSWalletSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASIOSWalletSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		C7D6DCAD780F68E4770FCFD596C5A766 /* ASIOSWalletSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASIOSWalletSDK-Info.plist"; sourceTree = "<group>"; };
+		E7B1D4565736C9491754FA4420B1F7F7 /* Pods-ASIOSWalletSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASIOSWalletSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		F9424497408B91641A1EB3216EFB2789 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58FEFC5D456D3310A858AB366E24E61D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0EBA3BB99DDAE168D0791207C1B585 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFDC1741944C5C223837A8189F4F737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C362D9F5C0EB5F7A33516EB2DC3FB10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C91E7D9207FAF35E8EB9676B52DA2AA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073BAE478F992ACF48D377B6155F2F44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		260332CB6963C01ED4A9D6DE0643D66B /* Pods-ASIOSWalletSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8F00CD91D34FF988BDD29BE9920AC32F /* Pods-ASIOSWalletSDK_Example.modulemap */,
+				46198483B7ED5995FCC8760E7EE4DC58 /* Pods-ASIOSWalletSDK_Example-acknowledgements.markdown */,
+				8E53F01B07E4FFB60E79B9EE307622FD /* Pods-ASIOSWalletSDK_Example-acknowledgements.plist */,
+				C3B338BF91DBF8572FE1FEF92B1F39A2 /* Pods-ASIOSWalletSDK_Example-dummy.m */,
+				5EC1B1F5028C2592FBCE4E23928F7BC0 /* Pods-ASIOSWalletSDK_Example-frameworks.sh */,
+				BE97E7A2FD99E5DBEEC624E05C0C2E9C /* Pods-ASIOSWalletSDK_Example-Info.plist */,
+				626A4398EB7E1BF3468A510CE5AB92EF /* Pods-ASIOSWalletSDK_Example-umbrella.h */,
+				AD639564751216EAA1C68D625B319DE2 /* Pods-ASIOSWalletSDK_Example.debug.xcconfig */,
+				123D7CD45C3C0BE7375BAA9E68002285 /* Pods-ASIOSWalletSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-ASIOSWalletSDK_Example";
+			path = "Target Support Files/Pods-ASIOSWalletSDK_Example";
+			sourceTree = "<group>";
+		};
+		2AC19710C7501D171D8DF70227E09BB1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3D2CA63E7716B2D95AC956A3ECD4D80C /* ASIOSWalletSDK.podspec */,
+				88067BDAB524C876EEE7EB4B6C3E61DE /* LICENSE */,
+				F9424497408B91641A1EB3216EFB2789 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2DFE78E92AC00864381A512004CB15EF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				260332CB6963C01ED4A9D6DE0643D66B /* Pods-ASIOSWalletSDK_Example */,
+				8003B9B3181E1CF0A80ACBC8177B5361 /* Pods-ASIOSWalletSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8003B9B3181E1CF0A80ACBC8177B5361 /* Pods-ASIOSWalletSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7C4A15A0CE4AF5F81827F70B46DD1D3D /* Pods-ASIOSWalletSDK_Tests.modulemap */,
+				0C15720F84F0F4A2D767217560A41740 /* Pods-ASIOSWalletSDK_Tests-acknowledgements.markdown */,
+				9E97A93E07DA36DB11FADF64EE517157 /* Pods-ASIOSWalletSDK_Tests-acknowledgements.plist */,
+				E7B1D4565736C9491754FA4420B1F7F7 /* Pods-ASIOSWalletSDK_Tests-dummy.m */,
+				1FBC309D23EC97933AFACA3E89C64124 /* Pods-ASIOSWalletSDK_Tests-Info.plist */,
+				7FF1733FD67083093CEA6232F6B157A4 /* Pods-ASIOSWalletSDK_Tests-umbrella.h */,
+				3147B0B1ED6566D88FCAAB84341E683C /* Pods-ASIOSWalletSDK_Tests.debug.xcconfig */,
+				541B97B3EC8F98AE927A180050C0731B /* Pods-ASIOSWalletSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-ASIOSWalletSDK_Tests";
+			path = "Target Support Files/Pods-ASIOSWalletSDK_Tests";
+			sourceTree = "<group>";
+		};
+		99D2212B4121F3A4C15907F43C9A7D2A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A912CA06938E338C900727BB2E060CF5 /* ASIOSWalletSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A912CA06938E338C900727BB2E060CF5 /* ASIOSWalletSDK */ = {
+			isa = PBXGroup;
+			children = (
+				51C05E92AD78027AE5BD71E2049B6D02 /* ReplaceMe.swift */,
+				2AC19710C7501D171D8DF70227E09BB1 /* Pod */,
+				B80EE2A134B17378690EB874F35BF2F8 /* Support Files */,
+			);
+			name = ASIOSWalletSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B80EE2A134B17378690EB874F35BF2F8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6FE65882577A1D57931233F8B86DDB3 /* ASIOSWalletSDK.modulemap */,
+				4CAB8DF48807872C863BD21BE98C7F9C /* ASIOSWalletSDK-dummy.m */,
+				C7D6DCAD780F68E4770FCFD596C5A766 /* ASIOSWalletSDK-Info.plist */,
+				33110F84C33214767B183E5CFAB5BDC1 /* ASIOSWalletSDK-prefix.pch */,
+				9BA4FA29121BE6588A2DD997882E925F /* ASIOSWalletSDK-umbrella.h */,
+				4EBA552CDC5D2556CEC6254B0B70BE62 /* ASIOSWalletSDK.debug.xcconfig */,
+				155743F33C240F3E7EFCE3749D84BD4C /* ASIOSWalletSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ASIOSWalletSDK";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				99D2212B4121F3A4C15907F43C9A7D2A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DA80223DB73821E744C5F1A1F0A7D784 /* Products */,
+				2DFE78E92AC00864381A512004CB15EF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA80223DB73821E744C5F1A1F0A7D784 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				377DD8DAC67BAF60D9115C57918C4E4B /* ASIOSWalletSDK.framework */,
+				AE1DE28C867838948A97F44D489FC730 /* Pods_ASIOSWalletSDK_Example.framework */,
+				6356BD8EC90F1E46B4B84CF1A092D059 /* Pods_ASIOSWalletSDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1FC5A68DB675EA90E2D06E097A8ED109 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFAB068660F0CEF5F8C7485762533BF /* ASIOSWalletSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B34294FF88ECBBCCB49A8B77BE605A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D075ECA58CE20E29C7311B190E46BB /* Pods-ASIOSWalletSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB287ABA673FC73F089C0B21DC3B444 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFC2EADEC3B5559A37FF27D7301699F /* Pods-ASIOSWalletSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0918D3AD7B7F84C00D70385591EAA19B /* Pods-ASIOSWalletSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 694109228A4B5BCE8E274CF62AEE8BC9 /* Build configuration list for PBXNativeTarget "Pods-ASIOSWalletSDK_Tests" */;
+			buildPhases = (
+				81B34294FF88ECBBCCB49A8B77BE605A /* Headers */,
+				1C3871334DA228B33B53F8B2AD3349AE /* Sources */,
+				6EFDC1741944C5C223837A8189F4F737 /* Frameworks */,
+				6328C3A9B6637E858952DB16B1AF868D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF90673C169D3ADADF86C284A21FDDE2 /* PBXTargetDependency */,
+			);
+			name = "Pods-ASIOSWalletSDK_Tests";
+			productName = "Pods-ASIOSWalletSDK_Tests";
+			productReference = 6356BD8EC90F1E46B4B84CF1A092D059 /* Pods_ASIOSWalletSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3063A3103877E24C8F30CD278467E95C /* ASIOSWalletSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0B0DF0A9E31538EF5296EB05EE8E043 /* Build configuration list for PBXNativeTarget "ASIOSWalletSDK" */;
+			buildPhases = (
+				1FC5A68DB675EA90E2D06E097A8ED109 /* Headers */,
+				5859DDCDED497AF139582BE6F604C8BE /* Sources */,
+				58FEFC5D456D3310A858AB366E24E61D /* Frameworks */,
+				EC8F21736CF59998611543288FB0BBC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASIOSWalletSDK;
+			productName = ASIOSWalletSDK;
+			productReference = 377DD8DAC67BAF60D9115C57918C4E4B /* ASIOSWalletSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9F624A8DA6C62655F59CE2761B15671 /* Pods-ASIOSWalletSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56E3E134735C9F25BCC79C88298195CB /* Build configuration list for PBXNativeTarget "Pods-ASIOSWalletSDK_Example" */;
+			buildPhases = (
+				DFB287ABA673FC73F089C0B21DC3B444 /* Headers */,
+				A7FCDD81EBD78F1AA4CE9AB8862DC6D4 /* Sources */,
+				C91E7D9207FAF35E8EB9676B52DA2AA8 /* Frameworks */,
+				B533B05F28436D800AA3E2343D2A9840 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF04E2006558B8967F11D35BF067B8F1 /* PBXTargetDependency */,
+			);
+			name = "Pods-ASIOSWalletSDK_Example";
+			productName = "Pods-ASIOSWalletSDK_Example";
+			productReference = AE1DE28C867838948A97F44D489FC730 /* Pods_ASIOSWalletSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DA80223DB73821E744C5F1A1F0A7D784 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3063A3103877E24C8F30CD278467E95C /* ASIOSWalletSDK */,
+				A9F624A8DA6C62655F59CE2761B15671 /* Pods-ASIOSWalletSDK_Example */,
+				0918D3AD7B7F84C00D70385591EAA19B /* Pods-ASIOSWalletSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6328C3A9B6637E858952DB16B1AF868D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B533B05F28436D800AA3E2343D2A9840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8F21736CF59998611543288FB0BBC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C3871334DA228B33B53F8B2AD3349AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A18F298C3F017D71C1FD18FAACBB977 /* Pods-ASIOSWalletSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5859DDCDED497AF139582BE6F604C8BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9110310E9B33D3F677B6D3CF9DE4D373 /* ASIOSWalletSDK-dummy.m in Sources */,
+				21842F789D561781D6BA4101A91C87C1 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FCDD81EBD78F1AA4CE9AB8862DC6D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39774CC66D2721808507D33B67326700 /* Pods-ASIOSWalletSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF04E2006558B8967F11D35BF067B8F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASIOSWalletSDK;
+			target = 3063A3103877E24C8F30CD278467E95C /* ASIOSWalletSDK */;
+			targetProxy = C4803DF5CD3D5C434490C9080979F5C7 /* PBXContainerItemProxy */;
+		};
+		DF90673C169D3ADADF86C284A21FDDE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ASIOSWalletSDK_Example";
+			target = A9F624A8DA6C62655F59CE2761B15671 /* Pods-ASIOSWalletSDK_Example */;
+			targetProxy = 11DDCAE069E3A8EA73320ED7EAAACBAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F74C1D8045C859B1ED6D12EC40228D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD639564751216EAA1C68D625B319DE2 /* Pods-ASIOSWalletSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ASIOSWalletSDK_Example/Pods-ASIOSWalletSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASIOSWalletSDK_Example/Pods-ASIOSWalletSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7459A8419F1655C6A87C90BA0C7B7421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 123D7CD45C3C0BE7375BAA9E68002285 /* Pods-ASIOSWalletSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ASIOSWalletSDK_Example/Pods-ASIOSWalletSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASIOSWalletSDK_Example/Pods-ASIOSWalletSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8CA0D7975E79581EF50926C781D6D8BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3147B0B1ED6566D88FCAAB84341E683C /* Pods-ASIOSWalletSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ASIOSWalletSDK_Tests/Pods-ASIOSWalletSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASIOSWalletSDK_Tests/Pods-ASIOSWalletSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91935E13BAFA173C41CE43C5695DCDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EBA552CDC5D2556CEC6254B0B70BE62 /* ASIOSWalletSDK.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASIOSWalletSDK/ASIOSWalletSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASIOSWalletSDK/ASIOSWalletSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASIOSWalletSDK/ASIOSWalletSDK.modulemap";
+				PRODUCT_MODULE_NAME = ASIOSWalletSDK;
+				PRODUCT_NAME = ASIOSWalletSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B323D6AE57F0B04DB9988EFF09F8510E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 155743F33C240F3E7EFCE3749D84BD4C /* ASIOSWalletSDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASIOSWalletSDK/ASIOSWalletSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASIOSWalletSDK/ASIOSWalletSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASIOSWalletSDK/ASIOSWalletSDK.modulemap";
+				PRODUCT_MODULE_NAME = ASIOSWalletSDK;
+				PRODUCT_NAME = ASIOSWalletSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F077358684B1C8FAFD2BF3475756C6FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 541B97B3EC8F98AE927A180050C0731B /* Pods-ASIOSWalletSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ASIOSWalletSDK_Tests/Pods-ASIOSWalletSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASIOSWalletSDK_Tests/Pods-ASIOSWalletSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56E3E134735C9F25BCC79C88298195CB /* Build configuration list for PBXNativeTarget "Pods-ASIOSWalletSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F74C1D8045C859B1ED6D12EC40228D4 /* Debug */,
+				7459A8419F1655C6A87C90BA0C7B7421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		694109228A4B5BCE8E274CF62AEE8BC9 /* Build configuration list for PBXNativeTarget "Pods-ASIOSWalletSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CA0D7975E79581EF50926C781D6D8BD /* Debug */,
+				F077358684B1C8FAFD2BF3475756C6FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0B0DF0A9E31538EF5296EB05EE8E043 /* Build configuration list for PBXNativeTarget "ASIOSWalletSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91935E13BAFA173C41CE43C5695DCDE2 /* Debug */,
+				B323D6AE57F0B04DB9988EFF09F8510E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

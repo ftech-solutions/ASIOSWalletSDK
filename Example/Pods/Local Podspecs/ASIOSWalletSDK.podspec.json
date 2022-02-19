@@ -1,0 +1,22 @@
+{
+  "name": "ASIOSWalletSDK",
+  "version": "0.1.0",
+  "summary": "A short description of ASIOSWalletSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ftech-solutions/ASIOSWalletSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ftech-solutions": "hkhan@paywith.com"
+  },
+  "source": {
+    "git": "https://github.com/ftech-solutions/ASIOSWalletSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ASIOSWalletSDK/Classes/**/*"
+}
